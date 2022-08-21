@@ -1,0 +1,27 @@
+Did you attempt to make your computer player very smart -- i.e., do something more clever than just pick a random legal move?
+Yes I tried to make my computer player smarter
+
+If so, were you able to accomplish this? Is your computer player as smart as you would like?
+I couldn't make my computer as smart as I want
+
+How did you determine which piece to play next? Tell us about your “pick next move” algorithm
+First computer move have to be next to the first player move in any direction
+Second computer move needs to put next to first computer move in any direction so it can make sequence
+After second computer's move
+If user play move have 4 consecutive stone, computer still need to block the leftover position in certain direction
+If computer move have 4 consecutive, computer put stone to make 5 consecutive in certain position
+If user play move have 3 consecutive stone, computer need to block either way(2 postions) in certain direction
+if computer move have 3 consecutive, computer put stone to make 4 consecutive in certain position
+other than that computer tries to put the stone to make most consecutive  
+
+How often did your computer program beat you, or your friends, or whoever tested it out for you?
+Since I couldn't accomplish my AI, mostly I won the game
+
+How easy would it be to make the difficulty level adjustable?
+To make the diffuculty level adjustable, you have to think which minor part of alogrithm you can takeout
+wihtout ruining the game. I think it will be hard. 
+
+How would you improve it in the future?
+For now, since my alogrithm only block the first three consecutive move not the later consecutive move, it ruins the future alogrithm steps
+In the future I will fix that problem and simplize the code by using recursion or other method. 
+To get the best position, it might be better to put points on each direction
