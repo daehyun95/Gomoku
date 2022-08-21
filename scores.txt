@@ -1,0 +1,2 @@
+Player 8
+Computer 7
